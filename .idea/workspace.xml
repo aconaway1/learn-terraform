@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73194a2d-04bd-4699-bb16-872fd106ba98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tags/terraform.tfstate.backup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vnets/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vnets/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vnets/vnets.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/tags/terraform.tfstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/tags/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
