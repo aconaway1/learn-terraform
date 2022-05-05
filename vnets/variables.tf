@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "TAGS-RG"
+  default = "VNETS-RG"
 }
 
 variable "location" {
