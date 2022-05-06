@@ -1,3 +1,4 @@
+
 terraform {
   required_providers {
     azurerm = {
@@ -26,3 +27,4 @@ resource "azurerm_resource_group" "rg" {
     Project            = "VNETS"
   }
 }
+
