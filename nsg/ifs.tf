@@ -46,3 +46,30 @@ resource "azurerm_network_interface" "IF-PROD-1" {
 #    public_ip_address_id          = azurerm_public_ip.PUBLIC-DEV-0.id
 #  }
 #}
+
+resource "azurerm_application_security_group" "ASG-PROD0" {
+  location            = var.location
+  name                = "ASG-PROD0"
+  resource_group_name = azurerm_resource_group.rg.name
+}
+
+resource "azurerm_application_security_group" "ASG-QA0" {
+  location            = var.location
+  name                = "ASG-QA0"
+  resource_group_name = azurerm_resource_group.rg.name
+}
+
+resource "azurerm_application_security_group" "ASG-DEV0" {
+  location            = var.location
+  name                = "ASG-DEV0"
+  resource_group_name = azurerm_resource_group.rg.name
+}
+
+resource "azurerm_network_interface_application_security_group_association" "ASG-PROD0" {
+  network_interface_id          = azurerm_network_interface.IF-PROD-0.id
+  application_security_group_id = azurerm_application_security_group.ASG-PROD0.id
+}
+resource "azurerm_network_interface_application_security_group_association" "ASG-PROD1" {
+  network_interface_id          = azurerm_network_interface.IF-PROD-1.id
+  application_security_group_id = azurerm_application_security_group.ASG-PROD0.id
+}

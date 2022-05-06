@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "VNETS-RG"
+  default = "NSG-RG"
 }
 
 variable "location" {

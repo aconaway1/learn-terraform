@@ -3,8 +3,8 @@ resource "azurerm_linux_virtual_machine" "VM-PROD-0" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
   size                = "Standard_B1s"
-#  size                = "Standard_F2"
-  admin_username      = "jac"
+  #  size                = "Standard_F2"
+  admin_username = "jac"
   network_interface_ids = [
     azurerm_network_interface.IF-PROD-0.id
   ]
@@ -32,8 +32,8 @@ resource "azurerm_linux_virtual_machine" "VM-PROD-1" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
   size                = "Standard_B1s"
-#  size                = "Standard_F2"
-  admin_username      = "jac"
+  #  size                = "Standard_F2"
+  admin_username = "jac"
   network_interface_ids = [
     azurerm_network_interface.IF-PROD-1.id
   ]
