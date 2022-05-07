@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73194a2d-04bd-4699-bb16-872fd106ba98" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/id_rsa.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/ifs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/nsg.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/publics.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/vms.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nsg-webfarm/vnets.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
