@@ -5,3 +5,12 @@ variable "resource_group_name" {
 variable "location" {
   default = "australiacentral"
 }
+
+variable "global_tags" {
+  type = map
+  default = {
+    Author = "Aaron"
+    Environment = "Testing"
+    Comment = "Testing tags"
+  }
+}

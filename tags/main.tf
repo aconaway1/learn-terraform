@@ -23,5 +23,6 @@ resource "azurerm_resource_group" "rg" {
     BusinessUnit       = "Shared"
     OpsCommitment      = "Baseline only"
     OpsTeam            = "NetEng"
+    Project            = "VNETS"
   }
 }
