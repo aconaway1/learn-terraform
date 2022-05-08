@@ -5,3 +5,17 @@ variable "resource_group_name" {
 variable "location" {
   default = "australiacentral"
 }
+
+variable "tags" {
+  type = map
+  default = {
+    WorkloadName       = "Training"
+    DataClassification = "Non-business"
+    Criticality        = "Low"
+    BusinessUnit       = "Shared"
+    OpsCommitment      = "Baseline only"
+    OpsTeam            = "NetEng"
+    Project            = "VNETS"
+    Author             = "Aaron"
+  }
+}

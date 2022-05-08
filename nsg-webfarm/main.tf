@@ -16,13 +16,5 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
   location = var.location
-  tags = {
-    WorkloadName       = "Training"
-    DataClassification = "Non-business"
-    Criticality        = "Low"
-    BusinessUnit       = "Shared"
-    OpsCommitment      = "Baseline only"
-    OpsTeam            = "NetEng"
-    Project            = "VNETS"
-  }
+  tags = var.tags
 }

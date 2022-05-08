@@ -2,6 +2,8 @@ resource "azurerm_linux_virtual_machine" "VM-PROD-0" {
   name                = "WEB0"
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
+  tags = var.tags
+
   size                = "Standard_B1s"
   admin_username      = "jac"
   network_interface_ids = [
@@ -30,6 +32,8 @@ resource "azurerm_linux_virtual_machine" "VM-PROD-1" {
   name                = "WEB1"
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
+  tags = var.tags
+
   size                = "Standard_B1s"
   admin_username      = "jac"
   network_interface_ids = [
@@ -58,6 +62,8 @@ resource "azurerm_linux_virtual_machine" "VM-PROD-2" {
   name                = "APP0"
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
+  tags = var.tags
+
   size                = "Standard_B1s"
   admin_username      = "jac"
   network_interface_ids = [
@@ -86,6 +92,8 @@ resource "azurerm_linux_virtual_machine" "VM-PROD-3" {
   name                = "DB0"
   resource_group_name = azurerm_resource_group.rg.name
   location            = var.location
+  tags = var.tags
+
   size                = "Standard_B1s"
   admin_username      = "jac"
   network_interface_ids = [
